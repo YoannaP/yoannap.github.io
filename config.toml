@@ -1,5 +1,5 @@
 title = "Test Blog"
-baseURL = 'https://peyoni.github.io'
+baseURL = 'https://peyoni.github.io/content/en/pages/about.md'
 languageCode = 'en-us'
 theme = "hugo-blog-awesome"
 
