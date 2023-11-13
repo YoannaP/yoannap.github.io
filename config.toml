@@ -1,4 +1,4 @@
-title = "Test Blog"
+title = "YP Blog"
 baseURL = 'https://yoannap.github.io'
 languageCode = 'en-us'
 theme = "hugo-blog-awesome"
