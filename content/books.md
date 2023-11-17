@@ -8,73 +8,72 @@ author: Yoanna Peneva
 Books which I am reading, want to read, or have read and enjoyed. 
 
 
-<ul>
-  <li>Steve Jobs</li>
-  <li>The Innovators</li>
-  <li>The Fountainhead</li>
-  <li>Atlas Shrugged</li>
-  <li>Build by Tony Fadell</li>
-  <li>Atomic Habits</li>
-  <li>Tomorrow's Table</li>
-  <li>Think Again by Adam Grant</li>
-  <li>How to lie with statistics</li>
-  <li>Lean In</li>
-  <li>Breath</li>
-  <li>What if?</li>
-  <li>Other Minds</li>
-  <li>Psychology of Money</li>
-  <li>Sleep</li>
-  <li>Hackers and Painters</li>
-  <li>Moment of Lift</li>
-  <li>Mindset</li>
-  <li>Letters to a Young Contrarian</li>
-  <li>The philosophical baby</li>
-  <li>Hillbilly Elligy</li>
-  <li>On Chesil Beach</li>
-  <li>Grit</li>
-  <li>Surely you're joking Mr Feynman</li>
-  <li>Map and Terrotory</li>
-  <li>Possible Minds</li>
-  <li>The Problem with everything</li>
-  <li>The making of the atomic bomb</li>
-  <li>Tools of Titans</li>
-  <li>The Hard thing about hard things</li>
-  <li>I will teach you to be rich</li>
-  <li>The four horsemen</li>
-  <li>Shoe Dog</li>
-  <li>Homo Deus</li>
-  <li>Godel, Escher, Bach</li>
-  <li>Inside WikiLeaks</li>
-  <li>4 Hour Workweek</li>
-  <li>Gifts DIffering</li>
-  <li>A man of all markets</li>
-  <li>More Money than god</li>
-  <li>Outlive</li>
-  <li>The lean startup</li>
-  <li>The Spark factor</li>
-  <li>A student's guide to bayesian statistics</li>
-  <li>Clean code in python</li>
-  <li>Range</li>
-  <li>The beginning of infinity</li>
-  <li>The Rosie Project Series</li>
-  <li>Discipline is destiny</li>
-  <li>Into thin air</li>
-  <li>The Gene</li>
-  <li>Genghis Khan</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+- Steve Jobs
+- The Innovators
+- The Fountainhead
+- Atlas Shrugged
+- Build by Tony Fadell
+- Atomic Habits
+- Tomorrow's Table
+- Think Again by Adam Grant
+- How to lie with statistics
+- Lean In
+- Breath
+- What if?
+- Other Minds
+- Psychology of Money
+- Sleep
+- Hackers and Painters
+- Moment of Lift
+- Mindset
+- Letters to a Young Contrarian
+- The philosophical baby
+- Hillbilly Elligy
+- On Chesil Beach
+- Grit
+- Surely you're joking Mr Feynman
+- Map and Terrotory
+- Possible Minds
+- The Problem with everything
+- The making of the atomic bomb
+- Tools of Titans
+- The Hard thing about hard things
+- I will teach you to be rich
+- The four horsemen
+- Shoe Dog
+- Homo Deus
+- Godel, Escher, Bach
+- Inside WikiLeaks
+- 4 Hour Workweek
+- Gifts DIffering
+- A man of all markets
+- More Money than god
+- Outlive
+- The lean startup
+- The Spark factor
+- A student's guide to bayesian statistics
+- Clean code in python
+- Range
+- The beginning of infinity
+- The Rosie Project Series
+- Discipline is destiny
+- Into thin air
+- The Gene
+- Genghis Khan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </ul>	
