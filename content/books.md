@@ -59,21 +59,31 @@ Books which I am reading, want to read, or have read and enjoyed.
 - Discipline is destiny
 - Into thin air
 - The Gene
-- Genghis Khan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</ul>	
+- Genghis Khan and the making of the modern world
+- The black swan
+- How to win friends and influence people
+- Ragtime
+- Anthony Bourdain's Kitchen Confidential
+- Daily Rituals
+- Karl Popper's Conjectures and Refutations
+- Elon Musk by Walter Isaacson
+- Extreme Ownership
+- The end of overeating
+- Maria Sharapova's Biography, unstoppable, my life so far
+- Andre Agassi's biography, open
+- Inside the black box
+- The silk roads
+- Hero of two worlds
+- The republic of false truths
+- Introduction to statistical learning
+- The truth about linear regression
+- Founders at work
+- Deep work
+- Columbus, the four voyages
+- Originals by Adam Grant
+- Zero to one
+- The startup of you by Reid Hoffman
+- Factfullness
+- Trillion dollar coach
+- Connected
+- Zucked
