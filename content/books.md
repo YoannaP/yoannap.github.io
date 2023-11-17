@@ -8,39 +8,40 @@ author: Yoanna Peneva
 Books which I am reading, want to read, or have read and enjoyed. 
 
 
-- Steve Jobs
-- The Innovators
-- The Fountainhead
-- Atlas Shrugged
+- Steve Jobs by Walter Isaacson
+- The Innovators by Walter Isaacson
+- The Fountainhead by Ayn Rand
+- Atlas Shrugged by Ayn Rand
 - Build by Tony Fadell
-- Atomic Habits
-- Tomorrow's Table
+- Atomic Habits by James Clear
+- Tomorrow's Table by Pamela Ronald
 - Think Again by Adam Grant
-- How to lie with statistics
-- Lean In
-- Breath
-- What if?
-- Other Minds
-- Psychology of Money
-- Sleep
-- Hackers and Painters
-- Moment of Lift
-- Mindset
-- Letters to a Young Contrarian
-- The philosophical baby
-- Hillbilly Elligy
-- On Chesil Beach
-- Grit
-- Surely you're joking Mr Feynman
-- Map and Terrotory
-- Possible Minds
-- The Problem with everything
-- The making of the atomic bomb
-- Tools of Titans
-- The Hard thing about hard things
+- How to lie with statistics by Darrell Huff
+- Lean In by Sheryl Sandberg
+- Breath: The New Science of a Lost Art by James Nestor
+- What if? by Randall Munroe
+- Other Minds by peter godfrey-smith
+- Psychology of Money by Morgan Housel
+- Sleep by Nick Littlehales
+- Hackers and Painters by Paul Graham
+- Moment of Lift by Melinda Gates
+- Mindset by Carol Dweck
+- Letters to a Young Contrarian by Christopher Hitchens
+- The philosophical baby by Alison Gopnik
+- Hillbilly elegy by j.d. vance 
+- On Chesil Beach by Ian McEwan
+- Machines Like Me by Ian McEwan
+- Grit by Angela Duckworth
+- Surely you're joking Mr Feynman by Richard Feynman
+- Map and Terrotory by Eliezer Yudkowsky
+- Possible Minds: Twenty-Five Ways of Looking at AI 
+- The Problem with everything by Meghan Daum
+- The making of the atomic bomb by Richard Rhodes
+- Tools of Titans by Tim Ferris
+- The Hard thing about hard things 
 - I will teach you to be rich
 - The four horsemen
-- Shoe Dog
+- Shoe Dog 
 - Homo Deus
 - Godel, Escher, Bach
 - Inside WikiLeaks
