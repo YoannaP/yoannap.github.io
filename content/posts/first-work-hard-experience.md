@@ -1,7 +1,7 @@
 +++
 title = 'First work-hard experience'
 date = 2023-11-17T18:00:00Z
-draft = false
+draft = true
 +++
 
 I was recently thinking about where I learnt to work hard. I think it was during my last year of school. Our physics teacher (who was also head of science at the school) gave the option to people to go and study at the physics department, after official school hours. 
