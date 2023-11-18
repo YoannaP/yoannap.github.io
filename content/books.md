@@ -5,8 +5,7 @@ date: 2023-11-17
 author: Yoanna Peneva
 ---
 
-Books which I am reading, want to read, or have read and enjoyed. 
-
+Books which I am reading, want to read, have read and enjoyed or have influenced me in some way. 
 
 - Steve Jobs by Walter Isaacson
 - The Innovators by Walter Isaacson
@@ -38,30 +37,31 @@ Books which I am reading, want to read, or have read and enjoyed.
 - The Problem with everything by Meghan Daum
 - The making of the atomic bomb by Richard Rhodes
 - Tools of Titans by Tim Ferris
-- The Hard thing about hard things 
-- I will teach you to be rich
-- The four horsemen
-- Shoe Dog 
-- Homo Deus
-- Godel, Escher, Bach
-- Inside WikiLeaks
-- 4 Hour Workweek
-- Gifts DIffering
-- A man of all markets
-- More Money than god
-- Outlive
-- The lean startup
-- The Spark factor
-- A student's guide to bayesian statistics
-- Clean code in python
-- Range
-- The beginning of infinity
-- The Rosie Project Series
-- Discipline is destiny
-- Into thin air
-- The Gene
-- Genghis Khan and the making of the modern world
-- The black swan
+- The Hard thing about hard things by Ben Horowitz
+- I will teach you to be rich by Ramit Sethi
+- The four horsemen by Richard Dawkins, Sam Harris and others
+- Shoe Dog by Phil Knight
+- Homo Deus by Yuval Noah Harari
+- Godel, Escher, Bach by Douglas Hofstadter
+- Inside WikiLeaks by Daniel Domscheit-Berg
+- 4 Hour Workweek by Tim Ferris
+- Gifts Differing by Isabel Briggs Myers and Peter B. Myers
+- A man for all markets by Edward O. Thorp
+- More Money than god by Sebastian Mallaby
+- Outlive by Peter Attia
+- The lean startup by Eric Ries
+- The Spark factor by Molly Maloof
+- The glucose revolution by Jessie Inchauspé
+- A student's guide to bayesian statistics by Ben Lambert
+- Clean code in python by Mariano Anaya
+- Range: How Generalists Triumph in a Specialized World by David Epstein 
+- The beginning of infinity by David Deutsch
+- The Rosie Project Series by Graeme Simsion
+- Discipline is destiny by Ryan Holiday
+- Into thin air by John Krakauer
+- The Gene by Siddhartha Mukherjee
+- Genghis Khan and the making of the modern world by Jack Weatherford
+- The black swan by Nassim Nicholas Taleb
 - How to win friends and influence people
 - Ragtime
 - Anthony Bourdain's Kitchen Confidential
