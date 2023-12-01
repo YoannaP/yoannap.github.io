@@ -7,6 +7,7 @@ author: Yoanna Peneva
 
 Books which I am reading, want to read, have read and enjoyed or have influenced me in some way. 
 
+- The Inner Game of Tennis by Timothy Gallwey
 - Steve Jobs by Walter Isaacson
 - The Innovators by Walter Isaacson
 - The Fountainhead by Ayn Rand
