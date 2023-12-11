@@ -37,6 +37,11 @@ googleAnalytics = 'G-XVEX4GZF4S' # G-MEASUREMENT_ID
     url = '/posts/'
     weight = 20
   [[menu.main]]
+    pageRef="speeches"
+    name = 'Speeches'
+    url = '/speeches/'
+    weight = 20
+  [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
