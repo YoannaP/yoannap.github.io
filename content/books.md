@@ -7,8 +7,14 @@ author: Yoanna Peneva
 
 Books which I am reading, want to read, have read and enjoyed or have influenced me in some way. 
 
+- Fifth Sun: A New History of the Aztecs by Camilla Townsend
+- Poor Charlie's Almanack: The Essential Wit and Wisdom of Charles T. Munger  
+- Think and Grow Rich by Napoleon Hill
+- The Chimp Paradox by Steve Peters
 - The Inner Game of Tennis by Timothy Gallwey
 - Steve Jobs by Walter Isaacson
+- Benjamin Franklin by Walter Isaacson
+- Elon Musk by Walter Isaacson
 - The Innovators by Walter Isaacson
 - The Fountainhead by Ayn Rand
 - Atlas Shrugged by Ayn Rand
@@ -68,7 +74,6 @@ Books which I am reading, want to read, have read and enjoyed or have influenced
 - Anthony Bourdain's Kitchen Confidential
 - Daily Rituals
 - Karl Popper's Conjectures and Refutations
-- Elon Musk by Walter Isaacson
 - Extreme Ownership
 - The end of overeating
 - Maria Sharapova's Biography, unstoppable, my life so far
