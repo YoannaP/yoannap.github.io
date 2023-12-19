@@ -1,6 +1,6 @@
 +++
 title = 'Summarising Books'
-date = 2023-12-19T23:29:01Z
+date = 2023-12-18T23:29:01Z
 draft = false
 +++
 
