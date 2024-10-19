@@ -1,6 +1,6 @@
 +++
 title = 'NC500 Post Mortem'
-date = 2024-10-19T17:02:01Z
+date = 2024-10-19T12:02:01Z
 draft = false
 +++
 
