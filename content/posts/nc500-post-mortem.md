@@ -8,7 +8,8 @@ I came back recently from cycling the NC500, 500 miles around the coast of North
 
 **Take the offensive move**
 
-This is related to playing offensive vs defensive in your life - something I heard on Tim Ferris when he interviewed Chris Sacca (link). 
+This is related to playing offensive vs defensive in your life - something I heard on Tim Ferris when he interviewed [Chris Sacca](https://tim.blog/2015/05/30/chris-sacca/)
+. 
 
 The truth is, that I had been working quite intensely and I didn’t feel like doing a 500 mile ride as a holiday, I wanted to chill on the beach. I knew it would be super hard, which it was. But in the end, if you struggle a little bit, you make yourself a little more resilient and end up in a better spot than before. 
 
