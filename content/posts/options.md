@@ -1,6 +1,6 @@
 +++
 title = 'Options'
-date = 2024-08-27T00:02:01Z
+date = 2024-10-27T00:02:01Z
 draft = false
 +++
 
