@@ -5,6 +5,8 @@ date: 2023-11-13
 author: Yoanna Peneva
 ---
 
-I studied Physics at university, did my masters in AI and have worked as a quant for the past 2.5 years. 
+I studied Physics at university, did my masters in AI and then worked as a quant for 2.5 years in a hedge fund.  
 
-Currently trading quantitative strategies within sports markets, writing articles and exploring next opportunities. 
+I trade quantitative strategies on sports markets in my spare time. 
+
+Currently I work on data science and modelling in a start up which predicts human behaviour. 
