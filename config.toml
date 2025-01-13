@@ -46,6 +46,11 @@ googleAnalytics = 'G-XVEX4GZF4S' # G-MEASUREMENT_ID
     name = 'Books'
     url = '/books/'
     weight = 30
+  [[menu.main]]
+    pageRef="weekly-readings"
+    name = 'Weekly Readings'
+    url = '/weekly-readings/'
+    weight = 40
 
 [params]
   defaultColor = "dark" 
