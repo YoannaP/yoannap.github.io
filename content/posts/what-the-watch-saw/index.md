@@ -29,7 +29,6 @@ pregnancy dates. All of it is fine to share if you want to share it, but
 it is worth one deliberate look rather than none.
 ==================================================================== -->
 
-
 <!-- OPENER. Two or three paragraphs. Things worth landing here:
   - You wore a Garmin through a pregnancy and came out with about 500 days
     of continuous data either side of it.
@@ -44,15 +43,13 @@ it is worth one deliberate look rather than none.
     difference between sitting and walking upstairs, held for months.
 -->
 
-I have always tracked my sleep, weight and temperature, with either a Garmin or an Oura ring, either for women's health or out of general interest.
+I have always tracked my sleep, weight, temperature, HR, with either a Garmin or an Oura ring for women's health, or out of plain curiosity.
 
-When I got pregnant, I found it really hard to find anything online about what my statistics were supposed to look like, and mine had gone completely out of whack.
+When I got pregnant, my statistics were going completely out of whack and I could find almost nothing online about what they were supposed to look like. My resting heart rate jumped about ten points over Christmas, in the first few weeks, and then fell back down again. HRV did the opposite. I took this to mean my body had stopped being worked up by the pregnancy, and that there was something wrong with the baby.
 
-My resting heart rate jumped about ten points over Christmas, in the first few weeks, and then fell back down again. HRV did the opposite. That frightened me: I took it to mean my body had stopped being worked up by the pregnancy, and that the baby was no longer alive (yes, I am prone to overthinking).
+Most women experience pregnancy through symptoms, which are subjective and hard to recall afterwards. I put together my Garmin daily measurements throughout the pregnancy. The shaded grey band on each chart is the baseline, from the six months before the pregnancy began.
 
-Most women experience pregnancy through symptoms, which are subjective and hard to recall afterwards. What follows is the same set of measurements, taken every night for a year. The shaded grey band on each chart is the baseline, the six months before the pregnancy began.
-
-## Heart works harder
+## Heart rate increases (obviously)
 
 ![Resting heart rate, weekly mean](resting_hr.svg)
 
@@ -72,13 +69,13 @@ already visible in week four, long before most of the outward signs. The
 double crossing is the detail that makes it real rather than a tidy curve.
 -->
 
-The resting heart rate baseline was about 51 bpm, by first trimester this jumped to 55, second trimester to 61 bpm and third trimester to 70 bpm. 
+The resting heart rate baseline was about 51 bpm, by first trimester this jumped to 55 bpm, second trimester to 61 bpm and third trimester to 70 bpm.
 
-What was also interesting is that it didn't increase straight away and steadily after conception, but there is an initial 4 week steep climb, after which weeks 7-12 go back within the range band. After week 17, which is where the uterus is the size of large grapefruit, it starts to shoot out of range, never to return. 
+Heart rate did not increase steadily straight after conception, it climbs steeply for four weeks, then settles back inside the band through week 12. After week 17, which is when the uterus is the size of large grapefruit, it starts to shoot out of the baseline range.
 
-Within just a few days of the birth it drops down to 46, lower than before, but I am not sure why. 
+Within just a few days of the birth it drops down to 46 bpm, lower than before, but I am not sure why.
 
-One of the more interesting things to me is that the change was already visible in week 4 in the statistics, which is much before any other symtoms tend to occur. 
+The heart rate change becomes visible in week 4 in the statistics, which is much before any other symptoms tend to occur - this is about the time when your next cycle begins.
 
 
 ## HRV
@@ -99,10 +96,11 @@ months straight and that was normal. A useful line to write against: a
 number going the "wrong" way is not the same as something being wrong.
 -->
 
-This tells a similar story to the resting heart rate, but it is basically two numbers telling you the same thing (again change in week 4, then back to normal, until it starts to deviate again in the second trimester)
+
+This tells a similar story to the resting heart rate (again change in week 4, then back to normal, until it starts to deviate again in the second trimester).
 
 
-## Weight (the obvious one)
+## Weight
 
 ![Weight, weekly mean](weight.svg)
 
@@ -122,7 +120,7 @@ proportional terms. Resting heart rate moved 40%, HRV moved 50%, weight
 moved 17%.
 -->
 
-This is obvious but I find it fascinating to see how much weight the body actually carries and releases after birth. 
+This is obvious but I still find it fascinating to see how much weight the body actually carries and releases after birth.
 
 
 ## Sleep
@@ -158,10 +156,10 @@ that visible again: add sleep_score.svg as a second chart in this section,
 or say it in a sentence and let this chart carry only the duration point.
 -->
 
-How much sleep I got throughout the whole day actually did not move at all out of range until the baby arrived, now being around 6 hours scatted in naps across the whole 24 hours. It did dip slightly in the third trimester though. 
+My total sleep stayed inside the band until the baby was born, now being around 6 hours scatted in naps across the whole day. It did dip slightly in the third trimester though.
 
 
-## Sleep Sp02
+## Oxygen
 
 ![Sleep SpO2, weekly mean and lowest, %](spo2.svg)
 
@@ -202,7 +200,7 @@ not the level. Given the rest of your post is about statistics being hard
 to interpret while pregnant, this is a natural place to say that plainly.
 -->
 
-This is the slowst and steadiest of the four lines, no week 4 spike like the others, just a drift downwards. Also respiratory rate went up from 13 breaths a minute to 16 breaths per minute in the third trimester (chart not included)! I would guess this is because the diaphragm has less space to move in the third trimester, you end up breathing faster and oxygenating less. 
+This is the slowest and steadiest of the charts, no week 4 spike like the others, just a drift downwards. Also respiratory rate went up from 13 breaths per minute to 16 breaths per minute in the third trimester (chart not included). I would guess this is because the diaphragm has less space to move in the third trimester, so I would end up breathing faster and oxygenating less.
 
 
 ## Final thoughts
@@ -219,10 +217,10 @@ This is the slowst and steadiest of the four lines, no week 4 spike like the oth
   - This describes one person. It is not advice and not a study.
 -->
 
-None of the actual symptoms are recorded here. Pregnancy has a very physical effect on the body, and nausea, mood and how it all felt leave no mark on any of these charts.
+None of the actual symptoms are recorded here. Pregnancy has a very physical effect, so things like nausea, mood and how it all felt leave no mark on any of these charts.
 
-This is also data about one person, and it is entirely possible that pregnancy affects other people differently. Still, I never found anything online I could relate to when I was looking for what my own statistics should look like. Wearables are only getting more common, so I hope this helps a few people feel calmer when they see their numbers go out of whack.
-
+This is also data about one person, and pregnancy may affect other people differently.
+Wearables are only getting more common, so I hope this helps a few people feel calmer when they see their numbers behave weirdly.
 <!-- CLOSER. Optional. If you want one, the question worth ending on is
 what it means to have this record at all: whether being able to see the
 adaptation from underneath changed how you experienced it, or whether it
