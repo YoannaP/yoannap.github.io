@@ -1,0 +1,150 @@
+/* Bookshelf page (layouts/_default/bookshelf.html).
+   One compartment per shelf; cloth-bound spines stand on wooden boards, and a card with the cover and note lifts out on hover.
+   Fonts come from the theme (Roboto); dark mode follows the theme's html.dark class. */
+/* This page is wider than the theme's 720px reading column so the spines have room. */
+.wrapper.bookshelf-wrapper { max-width: 1100px; }
+.bookshelf {
+  --bs-back: #e3e4e1;
+  --bs-muted: #6b7886;
+  --bs-wood: #8a5a36;
+  --bs-wood-hi: #a9764c;
+  --bs-wood-lo: #5e3a20;
+  --bs-brass: #9a7628;
+  --bs-card: #fff;
+  --bs-card-line: #dfe0e3;
+  --bs-heading: #0d122b;
+  --bs-shadow: rgba(30, 24, 14, .22);
+  --bs-slot: 246px;
+  --bs-board: 18px;
+}
+.bs-card {
+  --bs-muted: #6b7886;
+  --bs-brass: #9a7628;
+  --bs-card: #fff;
+  --bs-card-line: #dfe0e3;
+  --bs-heading: #0d122b;
+  --bs-text: #434648;
+  --bs-back: #e3e4e1;
+  --bs-shadow: rgba(30, 24, 14, .22);
+}
+html.dark .bookshelf,
+html.dark .bs-card {
+  --bs-back: #0c0d10;
+  --bs-muted: #9b9ba3;
+  --bs-wood: #4d311d;
+  --bs-wood-hi: #6a4529;
+  --bs-wood-lo: #2c1b0f;
+  --bs-brass: #c9a152;
+  --bs-card: #1f2128;
+  --bs-card-line: #34363f;
+  --bs-heading: #eaeaea;
+  --bs-text: #babdc4;
+  --bs-shadow: rgba(0, 0, 0, .6);
+}
+
+.bookshelf .header { margin-bottom: 28px; }
+
+.bs-section { margin-bottom: 44px; }
+.bs-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; margin-bottom: 12px; }
+.bs-head h2 { margin: 0; }
+.bs-count { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--bs-muted); font-variant-numeric: tabular-nums; }
+.bs-blurb { flex-basis: 100%; margin: 4px 0 0; color: var(--bs-muted); }
+
+/* The compartment: wooden frame, back panel, and a board under every row of books. */
+.bs-shelf {
+  display: flex; flex-wrap: wrap; align-items: flex-end;
+  column-gap: 3px; row-gap: var(--bs-board);
+  padding: 0 12px var(--bs-board);
+  border: 12px solid var(--bs-wood); border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+  background:
+    repeating-linear-gradient(to bottom,
+      transparent 0 var(--bs-slot),
+      var(--bs-wood-hi) var(--bs-slot) calc(var(--bs-slot) + 3px),
+      var(--bs-wood) calc(var(--bs-slot) + 3px) calc(var(--bs-slot) + var(--bs-board) - 4px),
+      var(--bs-wood-lo) calc(var(--bs-slot) + var(--bs-board) - 4px) calc(var(--bs-slot) + var(--bs-board))),
+    linear-gradient(to bottom, rgba(0, 0, 0, .18), transparent 26px),
+    var(--bs-back);
+  box-shadow: 0 10px 24px -14px var(--bs-shadow);
+}
+
+.bs-book {
+  --lift: 0px;
+  /* Every book fills exactly one slot (margin tops it up), so each row lines up with the boards drawn behind it. */
+  --hh: var(--h);
+  --ww: var(--w);
+  height: var(--hh); width: var(--ww); flex: none;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 10px 0 9px; margin: calc(var(--bs-slot) - var(--hh)) 0 0; box-sizing: border-box;
+  border: 0; border-radius: 2px 2px 1px 1px; cursor: pointer;
+  background:
+    linear-gradient(to right, rgba(0,0,0,.28), rgba(255,255,255,.10) 22%, rgba(255,255,255,0) 45%, rgba(0,0,0,.18)),
+    var(--c);
+  color: var(--t);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .12);
+  transform: translateY(var(--lift));
+  transition: transform .22s cubic-bezier(.3, .7, .3, 1.2), filter .2s;
+  position: relative;
+  font-family: inherit;
+}
+.bs-book::before, .bs-book::after { content: ""; width: 70%; height: 3px; flex: none; border-top: 1px solid var(--band); border-bottom: 1px solid var(--band); opacity: .75; }
+.bs-book.no-note { --band: transparent; }
+.bs-title {
+  /* Roboto is wide for a spine, so long titles wrap onto a second line instead of truncating. */
+  writing-mode: vertical-rl; flex: 1; min-height: 0; overflow: hidden;
+  max-width: min(calc(100% - 8px), 2.3em); /* two lines at most */
+  font-weight: 700; font-size: 12.5px; letter-spacing: .03em; text-transform: uppercase; line-height: 1.15;
+  text-align: center;
+}
+.bs-title.clipped { -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 18px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 18px), transparent); text-align: start; }
+.bs-by { writing-mode: vertical-rl; font-size: 11px; letter-spacing: .05em; opacity: .75; white-space: nowrap; line-height: 1; }
+.bs-book:hover, .bs-book.is-open { --lift: -16px; filter: brightness(1.08); z-index: 2; }
+.bs-book:focus-visible { outline: 2px solid var(--bs-brass); outline-offset: 3px; --lift: -16px; z-index: 2; }
+
+.bookshelf-total { color: var(--bs-muted); font-size: 14px; }
+
+/* Card with cover and note */
+.bs-card {
+  position: fixed; z-index: 100; left: 0; top: 0;
+  width: min(440px, calc(100vw - 32px)); box-sizing: border-box;
+  display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 18px; align-items: start;
+  background: var(--bs-card); color: var(--bs-text);
+  border: 1px solid var(--bs-card-line); border-radius: 4px;
+  padding: 16px 18px 18px 16px;
+  box-shadow: 0 18px 40px -12px var(--bs-shadow), 0 2px 6px var(--bs-shadow);
+  pointer-events: none;
+  font-size: 15px; line-height: 1.55;
+  animation: bs-rise .18s ease-out;
+}
+.bs-card[hidden] { display: none; }
+.bs-cover {
+  width: 120px; aspect-ratio: 2 / 3; max-width: 100%; position: relative; overflow: hidden;
+  border-radius: 1px 3px 3px 1px; background: var(--bs-back);
+  box-shadow: 0 8px 18px -8px var(--bs-shadow), 0 1px 2px var(--bs-shadow);
+}
+.bs-cover img { width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; }
+.bs-cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,.22), rgba(255,255,255,.12) 5%, transparent 9%); pointer-events: none; }
+.bs-cover.made { display: flex; flex-direction: column; justify-content: space-between; padding: 14px 10px 12px 14px; box-sizing: border-box; }
+.bs-cover.made b { font-size: 14px; line-height: 1.2; }
+.bs-cover.made i { font-style: normal; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.bs-cover.made hr { border: 0; border-top: 1px solid currentColor; opacity: .5; margin: 8px 0; width: 30px; }
+.bs-card-shelf { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--bs-brass); }
+.bs-card h3 { font-size: 19px; line-height: 1.2; margin: 4px 0 2px; color: var(--bs-heading); }
+.bs-card-author { margin: 0; color: var(--bs-muted); font-style: italic; }
+.bs-card-note { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--bs-card-line); }
+.bs-card-note.empty { color: var(--bs-muted); font-style: italic; }
+@keyframes bs-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 520px) {
+  .bookshelf { --bs-slot: 200px; }
+  .bs-book { --hh: calc(var(--h) * .8); --ww: calc(var(--w) * .82); }
+  .bs-title { font-size: 10.5px; }
+  .bs-by { font-size: 9.5px; }
+  .bs-shelf { border-width: 8px; padding-inline: 6px; }
+  .bs-card { grid-template-columns: 88px minmax(0, 1fr); gap: 14px; }
+  .bs-cover { width: 88px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bs-book { transition: none; }
+  .bs-card { animation: none; }
+}

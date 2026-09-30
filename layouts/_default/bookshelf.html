@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{- $css := resources.Get "bookshelf/bookshelf.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- /* Cloth bindings: cover, text, band. Each spine picks one from a hash of its title so the shelf looks the same on every build. */}}
+{{- $cloth := slice
+  (slice "#7a2b2b" "#f1e3cf" "#d8b465") (slice "#2e4a3b" "#e8e2cc" "#caa757") (slice "#22375a" "#e9e4d4" "#d2b06a")
+  (slice "#c49a3c" "#2a2114" "#5a3d12") (slice "#583a5c" "#efe3ea" "#cfae6c") (slice "#3b6c70" "#eef0e6" "#e0c07a")
+  (slice "#dcd3bd" "#2d2a22" "#8a6a2c") (slice "#1f2022" "#e6dfcf" "#b99650") (slice "#8e4a2e" "#f5e6d4" "#e2c07a")
+  (slice "#66744d" "#f2efdf" "#d9bb72") (slice "#a9b8c4" "#1f2832" "#6b5424") (slice "#9c2f3f" "#f6e5e0" "#dfbf78")
+  (slice "#40342c" "#eadfcd" "#c9a45a") }}
+<div class="wrapper post bookshelf-wrapper">
+    <main class="page-content" aria-label="Content">
+        <article class="bookshelf">
+            <header class="header">
+                <h1 class="header-title">{{ .Title }}</h1>
+            </header>
+            {{ with .Content }}<div class="bookshelf-intro">{{ . }}</div>{{ end }}
+
+            {{- $total := 0 }}
+            {{- range $si, $shelf := site.Data.books.shelves }}
+            <section class="bs-section" aria-labelledby="shelf-{{ $si }}">
+                <div class="bs-head">
+                    <h2 id="shelf-{{ $si }}">{{ $shelf.name }}</h2>
+                    <span class="bs-count">{{ len $shelf.books }} books</span>
+                    {{ with $shelf.blurb }}<p class="bs-blurb">{{ . }}</p>{{ end }}
+                </div>
+                <div class="bs-shelf" role="list">
+                    {{- $prev := -1 }}
+                    {{- range $shelf.books }}
+                    {{- $h := crypto.FNV32a (printf "%s%s" .title .author) }}
+                    {{- $ci := mod $h (len $cloth) }}
+                    {{- if eq $ci $prev }}{{ $ci = mod (add $ci 1) (len $cloth) }}{{ end }}
+                    {{- $prev = $ci }}
+                    {{- $c := index $cloth $ci }}
+                    {{- $height := add 186 (mod (div $h 256) 50) }}
+                    {{- $width := add 33 (div (mul (len .title) 34) 100) (mod (div $h 65536) 8) }}
+                    {{- if gt $width 60 }}{{ $width = 60 }}{{ end }}
+                    {{- if .volumes }}{{ $width = add $width 20 }}{{ end }}
+                    {{- $firstAuthor := replaceRE `\s*[,&(].*$` "" .author }}
+                    {{- $surname := index (last 1 (split $firstAuthor " ")) 0 }}
+                    <button type="button" role="listitem"
+                        class="bs-book{{ if not .note }} no-note{{ end }}"
+                        style="--h:{{ $height }}px;--w:{{ $width }}px;--c:{{ index $c 0 }};--t:{{ index $c 1 }};--band:{{ index $c 2 }}"
+                        aria-label="{{ .title }} by {{ .author }}"
+                        data-title="{{ .title }}" data-author="{{ .author }}" data-shelf="{{ $shelf.name }}"
+                        {{- with .note }} data-note="{{ . }}"{{ end }}
+                        {{- with .cover }} data-cover="{{ printf "books/covers/%s" . | relURL }}"{{ end }}>
+                        <span class="bs-title">{{ index (split .title ":") 0 }}</span>
+                        <span class="bs-by">{{ $surname }}</span>
+                    </button>
+                    {{- $total = add $total 1 }}
+                    {{- end }}
+                </div>
+            </section>
+            {{- end }}
+            <p class="bookshelf-total">{{ $total }} books on {{ len site.Data.books.shelves }} shelves.</p>
+        </article>
+    </main>
+</div>
+
+<div class="bs-card" id="bs-card" hidden role="tooltip">
+    <div class="bs-cover" id="bs-cover"></div>
+    <div>
+        <div class="bs-card-shelf" id="bs-card-shelf"></div>
+        <h3 id="bs-card-title"></h3>
+        <p class="bs-card-author" id="bs-card-author"></p>
+        <p class="bs-card-note" id="bs-card-note"></p>
+    </div>
+</div>
+{{- $js := resources.Get "bookshelf/bookshelf.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}
