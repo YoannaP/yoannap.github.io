@@ -53,6 +53,12 @@ Our baby wears an Owlet sock at night which reads heart rate from his foot and i
 
 The sock's quite good at telling us "is there anything wrong right now", albeit it being a few seconds delayed. Within the iPhone app, it's very hard to see historical data (it is also averaged across 10 minutes) and the data only persists for only about 2 days. The iPhone app is also really badly designed.
 
+
+
+
+
+Our project is open-sourced at: https://github.com/YoannaP/owlet-recorder
+
 <!-- THE FACTS. All verified against Owlet's own API.
   - The endpoint that returns readings caps at 100 rows. About eight
     minutes.
@@ -135,6 +141,7 @@ decreased body movement, and a heart rate that is lower and less variable. That'
 When you look at the heart rate trend across time, it's pretty cool to see it slowly decline as his systems mature. Newborns have very high heart rates which gradually decline as they grow as their nervous systems controlling it is still being built at the start and it takes a while to come into a regular cadence.
 
 ![Median heart rate per night](heart_rate.svg)
+
 
 
 
